@@ -65,7 +65,7 @@ The difference between the original data set and the the normalized set is the c
 
 Given the relatively low resolution of the images, I started with Lenet example. To  improve training I added dropout (in early layers) with RELU rectifier functions. I came accross   self-normalizing rectifier function(SELU) litterature recently and decided to give it a try  instead of RELU. The result was marginally better after many epochs, but trained much faster ( > 90% in one epoch), consequently I kept SELU in the original. For more information about SELU check out the paper [Self-Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515.pdf).
 
-I  use a deep neural network classifier as a model, which was based on  [Pierre Sermanet / Yann LeCun paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf). It has 8 layers: 2 convolutional layers for feature extraction, 2 max pooling (2x2 filter size) layers for downsampling and overfitting control and  4 fully connected layer as a classifier.
+I  use a deep neural network classifier as a model, which was based on  [Pierre Sermanet / Yann LeCun paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf). It has several layers: 2 convolutional layers for feature extraction, 2 max pooling (2x2 filter size) layers for downsampling and overfitting control, 5 activation layers(SELU), 1 flatten layer,   4 fully connected layer as a classifier.
 
 Moreover, to improve the training  I added dropout to minimize overfitting
 My final model consisted of the following layers:
