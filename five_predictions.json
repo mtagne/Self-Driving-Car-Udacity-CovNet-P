@@ -1,0 +1,117 @@
+{
+  "testImages/priority.png": {
+    "probabilities": [
+      1.0,
+      1.4189740724925796e-14,
+      2.0154526410699845e-15,
+      7.020451947751002e-19,
+      7.069521077169472e-20
+    ],
+    "indices": [
+      12,
+      26,
+      13,
+      11,
+      17
+    ],
+    "predicted_labels": [
+      "Priority road",
+      "Traffic signals",
+      "Yield",
+      "Right-of-way at the next intersection",
+      "No entry"
+    ]
+  },
+  "testImages/roundabout.png": {
+    "probabilities": [
+      0.9999994039535522,
+      6.459861197072314e-07,
+      6.512550221327018e-11,
+      2.4660601685710937e-11,
+      8.395577527457732e-13
+    ],
+    "indices": [
+      40,
+      39,
+      38,
+      33,
+      37
+    ],
+    "predicted_labels": [
+      "Roundabout mandatory",
+      "Keep left",
+      "Keep right",
+      "Turn right ahead",
+      "Go straight or left"
+    ]
+  },
+  "testImages/slippery.png": {
+    "probabilities": [
+      0.9995914101600647,
+      0.00040854659164324403,
+      1.6226822552312115e-08,
+      3.2059461751998697e-09,
+      1.5240933515237032e-11
+    ],
+    "indices": [
+      23,
+      17,
+      3,
+      9,
+      10
+    ],
+    "predicted_labels": [
+      "Slippery road",
+      "No entry",
+      "Speed limit (60km/h)",
+      "No passing",
+      "No passing for vehicles over 3.5 metric tons"
+    ]
+  },
+  "testImages/stop.png": {
+    "probabilities": [
+      0.7755654454231262,
+      0.13650080561637878,
+      0.0495292954146862,
+      0.03587556630373001,
+      0.002322973683476448
+    ],
+    "indices": [
+      14,
+      13,
+      5,
+      2,
+      1
+    ],
+    "predicted_labels": [
+      "Stop",
+      "Yield",
+      "Speed limit (80km/h)",
+      "Speed limit (50km/h)",
+      "Speed limit (30km/h)"
+    ]
+  },
+  "testImages/wild_animal_cross.png": {
+    "probabilities": [
+      0.5489459037780762,
+      0.4467582702636719,
+      0.003774699755012989,
+      0.0004470568092074245,
+      5.221658284426667e-05
+    ],
+    "indices": [
+      18,
+      25,
+      0,
+      31,
+      37
+    ],
+    "predicted_labels": [
+      "General caution",
+      "Road work",
+      "Speed limit (20km/h)",
+      "Wild animals crossing",
+      "Go straight or left"
+    ]
+  }
+}
